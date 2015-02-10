@@ -1,0 +1,14 @@
+<!doctype HTML>
+<html >
+    <head>
+        <title>
+            Image Color Changer
+        </title>
+        <script type="text/javascript" src="../src/imageColorChanger.js"></script>
+    </head>
+    <body>
+        <img src="./images/pin_white.png" id="mug" onload="" />
+        <input type="text" id="color" value="#6491ee" />
+        <input type="button" value="change color" onclick="ImgColorChanger.changeColor(document.getElementById('mug'), document.getElementById('color').value)">
+    </body>
+</html>
